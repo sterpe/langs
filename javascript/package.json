@@ -1,0 +1,22 @@
+{
+  "name": "@sterpe/javascript",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sterpe/langs.git"
+  },
+  "author": "sterpe <srterpe@gmail.com> (https://github.com/sterpe)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sterpe/langs/issues"
+  },
+  "homepage": "https://github.com/sterpe/langs#readme",
+  "devDependencies": {
+    "jest-cli": "^0.5.8"
+  }
+}
