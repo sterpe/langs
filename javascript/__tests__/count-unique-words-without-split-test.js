@@ -7,7 +7,7 @@ describe([
 		"A function ƒ of a String which returns"
 		, "the number of unique words in the string"
 		, "without using String.prototype.split()."
-	].join(" "), function () {
+].join(" "), function () {
 	it([
 		"should return the count of unique"
 		, "words in the input string."

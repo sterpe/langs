@@ -8,14 +8,13 @@ describe([
 		, 'and a delimiter and produces as output'
 		, 'an array of substrings split from the'
 		, 'delimiter'
-
 ].join(" "), function () {
 	it([
 		'should split the input string along'
 		, 'the delimiter'
 
 	].join(" "), function () {
-		var ƒ = require(file);
+		const ƒ = require(file);
 
 		expect(ƒ(S, " ")).toEqual(S.split(" "));
 	});
