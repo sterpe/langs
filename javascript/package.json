@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "standard",
     "test": "jest --verbose --coverage"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/sterpe/langs#readme",
   "devDependencies": {
-    "jest-cli": "^0.5.8"
+    "jest-cli": "^0.6.0",
+    "standard": "^5.3.1"
   }
 }
